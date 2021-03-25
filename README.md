@@ -28,3 +28,14 @@ The objective of the competition is to identify the mention of datasets within s
 Your predictions will be short excerpts from the publications that appear to note a dataset.
 
 -------
+
+## Website
+
+## Jaccard-based FBeta
+https://en.wikipedia.org/wiki/Jaccard_index
+
+
+-------
+
+
+
