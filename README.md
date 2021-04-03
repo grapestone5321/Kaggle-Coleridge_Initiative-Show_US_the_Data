@@ -100,7 +100,7 @@ https://en.wikipedia.org/wiki/Jaccard_index
 
 ## Progress
 
-### Public Best LB Score: 
+### Public Best LB Score: 0.701
 
 ### Private Score: 
 
@@ -115,3 +115,18 @@ https://www.kaggle.com/prashansdixit/coleridge-initiative-eda-baseline-model
 
 
       Public Score 0.701
+
+
+
+
+-------
+
+## Loading Data, EDA
+https://www.kaggle.com/mohamedbakrey/loading-data-eda
+
+      Public Score 0.695
+
+-------
+
+
+
