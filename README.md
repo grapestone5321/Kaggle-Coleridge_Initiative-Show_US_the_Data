@@ -35,8 +35,22 @@ Your predictions will be short excerpts from the publications that appear to not
 ## Jaccard-based FBeta
 https://en.wikipedia.org/wiki/Jaccard_index
 
+-------
+
+## Progress
+
+### Public Best LB Score: 
+
+### Private Score: 
+
+
+
+
 
 -------
 
+## Coleridge Initiative-EDA📚 & Baseline Model
+https://www.kaggle.com/prashansdixit/coleridge-initiative-eda-baseline-model
 
 
+      Public Score 0.701
