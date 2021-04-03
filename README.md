@@ -62,6 +62,17 @@ https://en.wikipedia.org/wiki/Jaccard_index
 
 ## Task
 
+This competition will build just such an open and transparent approach. 
+
+The results will show how public data are being used in science and help the government make wiser, more transparent public investments. 
+
+It will help move researchers and governments from using ad-hoc methods to automated ways of finding out what datasets are being used to solve problems, what measures are being generated, and which researchers are the experts. 
+
+Previous competitions have shown that it is possible to develop algorithms to automate the search and discovery of references to data. 
+
+Now, we want the Kaggle community to develop the best approaches to identify critical datasets used in scientific publications.
+
+
 In this competition, you'll use natural language processing (NLP) to automate the discovery of how scientific data are referenced in publications. 
 
 Utilizing the full text of scientific publications from numerous research areas gathered from CHORUS publisher members and other sources, you'll identify data sets that the publications' authors used in their work.
@@ -69,6 +80,11 @@ Utilizing the full text of scientific publications from numerous research areas 
 The objective of the competition is to identify the mention of datasets within scientific publications. 
 
 Your predictions will be short excerpts from the publications that appear to note a dataset.
+
+
+
+### CHORUS 
+https://www.chorusaccess.org/
 
 -------
 
@@ -82,8 +98,9 @@ https://coleridgeinitiative.org/
       use of data, by building new technologies to enable secure access to and sharing of confidential microdata, 
       and by training agency staff to acquire modern data skills.
 
--------
 
+
+-------
 
 ## Resources
 
