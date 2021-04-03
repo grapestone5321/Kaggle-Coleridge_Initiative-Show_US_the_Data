@@ -72,6 +72,19 @@ Your predictions will be short excerpts from the publications that appear to not
 
 -------
 
+## Coleridge Initiative
+https://coleridgeinitiative.org/
+
+
+      The Coleridge Initiative is a not-for-profit organization, originally established at New York University, 
+      that is working with governments to ensure that data are more effectively used for public decision-making. 
+      We achieve this goal by working with government agencies to create value for the taxpayer from the careful 
+      use of data, by building new technologies to enable secure access to and sharing of confidential microdata, 
+      and by training agency staff to acquire modern data skills.
+
+-------
+
+
 ## Resources
 
 
