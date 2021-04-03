@@ -30,6 +30,25 @@ Your predictions will be short excerpts from the publications that appear to not
 
 -------
 
+## Resources
+
+
+### Coleridge Data Examples
+https://coleridgeinitiative.org/data-products/
+
+### Rich Search and Discovery for Research Datasets
+https://study.sagepub.com/richcontext
+
+### Democratizing Our Data
+https://mitpress.mit.edu/books/democratizing-our-data
+
+### NSF"Rich Context" Video
+https://www.youtube.com/watch?v=PIReIlsTI8U
+
+
+
+-------
+
 ## Website
 
 ## Jaccard-based FBeta
