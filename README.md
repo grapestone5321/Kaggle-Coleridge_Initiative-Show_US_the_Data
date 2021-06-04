@@ -162,7 +162,15 @@ https://www.kaggle.com/suryadeepti/0-573-mask-modeling
 
       Public Score 0.574
       
-### PREDICT_BATCH: 
+### PREDICT_BATCH:
 
-      PREDICT_BATCH = 32   LB: 0.574    ver1
-      PREDICT_BATCH = 64   LB:     ver2
+      PREDICT_BATCH = 8     LB: error    ver4
+      PREDICT_BATCH = 16    LB: error    ver3
+      PREDICT_BATCH = 32    LB: 0.574    ver1
+      PREDICT_BATCH = 64    LB: 0.573    ver2
+      PREDICT_BATCH = 128   LB: 0.574    ver5
+      PREDICT_BATCH = 256   LB: 0.574    ver6
+      PREDICT_BATCH = 512   LB:     ver7
+    
+-------
+
