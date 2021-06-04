@@ -161,3 +161,8 @@ https://www.kaggle.com/mohamedbakrey/loading-data-eda
 https://www.kaggle.com/suryadeepti/0-573-mask-modeling
 
       Public Score 0.574
+      
+### PREDICT_BATCH: 
+
+      PREDICT_BATCH = 32   LB: 0.574    ver1
+      PREDICT_BATCH = 64   LB:     ver2
