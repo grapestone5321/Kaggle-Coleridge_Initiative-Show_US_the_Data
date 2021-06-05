@@ -170,7 +170,7 @@ https://www.kaggle.com/suryadeepti/0-573-mask-modeling
       PREDICT_BATCH = 64    LB: 0.573    ver2
       PREDICT_BATCH = 128   LB: 0.574    ver5
       PREDICT_BATCH = 256   LB: 0.574    ver6
-      PREDICT_BATCH = 512   LB:     ver7
+      PREDICT_BATCH = 512   LB: 0.573    ver7
     
 -------
 
