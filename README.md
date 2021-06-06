@@ -177,11 +177,19 @@ https://www.kaggle.com/suryadeepti/0-573-mask-modeling
 PREDICT_BATCH = 32:
 
       MAX_LENGTH = 16      LB: 0.572    ver9
-      MAX_LENGTH = 32      LB: 0.576    ver8     --- Best     
+      MAX_LENGTH = 32      LB: 0.576    ver8     --- Best
+      
+      MAX_LENGTH = 36      LB: 0.574    ver12
+      MAX_LENGTH = 40      LB: 0.574    ver13
+      MAX_LENGTH = 48      LB: 0.573    ver14
+      MAX_LENGTH = 56      LB:     ver15
+      MAX_LENGTH = 60      LB:     ver16      
+      
       MAX_LENGTH = 64      LB: 0.574    ver1     --- default
       MAX_LENGTH = 128     LB: 0.573    ver10
       MAX_LENGTH = 256     LB: error    ver11
     
-    
+
+     
 -------
 
