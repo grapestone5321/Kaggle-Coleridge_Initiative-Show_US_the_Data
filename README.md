@@ -178,11 +178,11 @@ PREDICT_BATCH = 32:
 
       MAX_LENGTH = 16      LB: 0.572    ver9
       
-      MAX_LENGTH = 31      LB:     ver17
-      MAX_LENGTH = 30      LB:     ver
-      MAX_LENGTH = 29      LB:     ver
-      MAX_LENGTH = 28      LB:     ver
-      MAX_LENGTH = 24      LB:     ver
+      MAX_LENGTH = 31      LB: 0.574    ver17
+      MAX_LENGTH = 30      LB: 0.574    ver18
+      MAX_LENGTH = 29      LB: 0.574    ver19
+      MAX_LENGTH = 28      LB: 0.576    ver20
+      MAX_LENGTH = 24      LB: 0.572    ver21
     
       MAX_LENGTH = 32      LB: 0.576    ver8     --- Best      
       MAX_LENGTH = 36      LB: 0.574    ver12
