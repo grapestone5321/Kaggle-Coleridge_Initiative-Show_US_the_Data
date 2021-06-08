@@ -194,7 +194,15 @@ PREDICT_BATCH = 32:
       MAX_LENGTH = 128     LB: 0.573    ver10
       MAX_LENGTH = 256     LB: error    ver11
     
+MAX_LENGTH = 32:
 
-     
+      OVERLAP = 20        LB: 0.576    ver8     --- Best    
+      OVERLAP = 21        LB: 0.575    ver22
+      OVERLAP = 22        LB: 0.574    ver23
+      OVERLAP = 23        LB: 0.574    ver24
+      OVERLAP = 19        LB: 0.57    ver25
+      OVERLAP = 18        LB: 0.57    ver26 
+      
+      
 -------
 
