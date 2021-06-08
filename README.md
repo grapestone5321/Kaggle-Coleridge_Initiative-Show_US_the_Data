@@ -201,7 +201,7 @@ MAX_LENGTH = 32:
       OVERLAP = 22        LB: 0.574    ver23
       OVERLAP = 23        LB: 0.574    ver24
       OVERLAP = 19        LB: 0.57    ver25
-      OVERLAP = 18        LB: 0.57    ver26 
+      OVERLAP = 18        LB: 0.575    ver26 
       
       
 -------
