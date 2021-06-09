@@ -211,8 +211,8 @@ OVERLAP = 20：
       adnl_govt_labels = pd.read_csv(adnl_govt_labels_path)      LB:    ver28
       adnl_govt_labels = df_data10000                            LB:    ver29
       adnl_govt_labels = df_data16897                            LB:    ver30
-      adnl_govt_labels = df_datahead5000                         LB:    ver32
-      adnl_govt_labels = df_datatail5000                         LB:    ver33
+      adnl_govt_labels = df_datahead5000                         LB: 0.271   ver32
+      adnl_govt_labels = df_datatail5000                         LB: 0.047   ver33
 
 -------
 
