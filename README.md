@@ -202,7 +202,17 @@ MAX_LENGTH = 32:
       OVERLAP = 23        LB: 0.574    ver24
       OVERLAP = 19        LB: 0.574    ver25
       OVERLAP = 18        LB: 0.575    ver26 
-      
-      
+
+OVERLAP = 20：
+
+      adnl_govt_labels_path = '..//data_set_800.csv'        LB: 0.576    ver8     --- Best  
+      adnl_govt_labels_path = '..//data_set_26897.csv'      LB:    ver28
+
+      adnl_govt_labels = pd.read_csv(adnl_govt_labels_path)      LB:    ver28
+      adnl_govt_labels = df_data10000                            LB:    ver29
+      adnl_govt_labels = df_data16897                            LB:    ver30
+      adnl_govt_labels = df_datahead5000                         LB:    ver32
+      adnl_govt_labels = df_datatail5000                         LB:    ver33
+
 -------
 
