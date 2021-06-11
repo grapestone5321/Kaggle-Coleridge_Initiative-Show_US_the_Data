@@ -214,5 +214,15 @@ OVERLAP = 20：
       adnl_govt_labels = df_datahead5000                         LB: 0.271   ver32
       adnl_govt_labels = df_datatail5000                         LB: 0.047   ver33
 
+
+### def compute_fbeta(y_true: 
+
+      beta: float = 0.5) -> float:           LB: 0.576    ver8     --- Best  --- defalt
+      beta: float = 0.6) -> float:           LB: 0.576    ver34 
+      beta: float = 0.7) -> float:           LB: 0.576    ver35
+      beta: float = 0.8) -> float:           LB: 0.576    ver36 
+      beta: float = 0.4) -> float:           LB: 0.576    ver37 
+      beta: float = 0.3) -> float:           LB: 0.576    ver38 
+                  
 -------
 
