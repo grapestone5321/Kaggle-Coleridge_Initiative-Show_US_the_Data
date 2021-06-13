@@ -224,5 +224,26 @@ OVERLAP = 20：
       beta: float = 0.4) -> float:           LB: 0.576    ver37 
       beta: float = 0.3) -> float:           LB: 0.576    ver38 
                   
+
+### SEED:
+
+      SEED = 42          LB: 0.576    ver8     --- Best  --- defalt
+      SEED = 100         LB: 0.576    ver39    
+      SEED = 500         LB: 0.576    ver40     
+      SEED = 1000        LB: 0.576    ver41     
+      SEED = 1500        LB: 0.576    ver42     
+      SEED = 2000        LB: 0.576    ver43     
+
+
+
+### for label in sorted(pred_bag, key=len, reverse=True):
+
+      got_label) < 0.60 for got_label in filtered_labels):          LB: 0.576    ver46
+      got_label) < 0.65 for got_label in filtered_labels):          LB: 0.576    ver45
+      got_label) < 0.70 for got_label in filtered_labels):          LB: 0.576    ver44      
+      got_label) < 0.75 for got_label in filtered_labels):          LB: 0.576    ver8      --- Best  --- defalt
+      got_label) < 0.80 for got_label in filtered_labels):          LB: 0.576    ver47
+      got_label) < 0.85 for got_label in filtered_labels):          LB: 0.575    ver48
+
 -------
 
