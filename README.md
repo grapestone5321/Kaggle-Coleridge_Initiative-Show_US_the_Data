@@ -245,5 +245,15 @@ OVERLAP = 20：
       got_label) < 0.80 for got_label in filtered_labels):          LB: 0.576    ver47
       got_label) < 0.85 for got_label in filtered_labels):          LB: 0.575    ver48
 
+
+
+### if not MATCH_ONLY:
+
+      PRETRAINED_PATH = '/checkpoint-60000':           LB: 0.576    ver8      --- Best  --- defalt   
+      PRETRAINED_PATH = '/checkpoint-48000':           LB: 0.576    ver50
+      PRETRAINED_PATH = '/checkpoint-36000':           LB: 0.575    ver51
+      PRETRAINED_PATH = '/checkpoint-24000':           LB: 0.574    ver52
+      PRETRAINED_PATH = '/checkpoint-12000':           LB: 0.570    ver53
+      
 -------
 
