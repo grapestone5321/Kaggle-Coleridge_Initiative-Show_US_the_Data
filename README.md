@@ -254,6 +254,14 @@ OVERLAP = 20：
       PRETRAINED_PATH = '/checkpoint-36000':           LB: 0.575    ver51
       PRETRAINED_PATH = '/checkpoint-24000':           LB: 0.574    ver52
       PRETRAINED_PATH = '/checkpoint-12000':           LB: 0.570    ver53
-      
+
+
+#adnl_govt_labels = df_data2300
+#adnl_govt_labels = df_data2000
+#adnl_govt_labels = df_data1800
+#adnl_govt_labels = df_data1500
+adnl_govt_labels = df_data1000
+
+
 -------
 
