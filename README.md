@@ -129,7 +129,7 @@ https://en.wikipedia.org/wiki/Jaccard_index
 
 ## Progress
 
-### Public Best LB Score: 0.574
+### Public Best LB Score: 0.584
 
 ### Private Score: 
 
@@ -184,7 +184,7 @@ PREDICT_BATCH = 32:
       MAX_LENGTH = 28      LB: 0.576    ver20
       MAX_LENGTH = 24      LB: 0.572    ver21
     
-      MAX_LENGTH = 32      LB: 0.576    ver8     --- Best      
+      MAX_LENGTH = 32      LB: 0.576    ver8     --- (Best)      
       MAX_LENGTH = 36      LB: 0.574    ver12
       MAX_LENGTH = 40      LB: 0.574    ver13
       MAX_LENGTH = 48      LB: 0.573    ver14
@@ -196,7 +196,7 @@ PREDICT_BATCH = 32:
     
 MAX_LENGTH = 32:
 
-      OVERLAP = 20        LB: 0.576    ver8     --- Best    
+      OVERLAP = 20        LB: 0.576    ver8     --- (Best)    
       OVERLAP = 21        LB: 0.575    ver22
       OVERLAP = 22        LB: 0.574    ver23
       OVERLAP = 23        LB: 0.574    ver24
@@ -205,7 +205,7 @@ MAX_LENGTH = 32:
 
 OVERLAP = 20：
 
-      adnl_govt_labels_path = '..//data_set_800.csv'        LB: 0.576    ver8     --- Best  
+      adnl_govt_labels_path = '..//data_set_800.csv'        LB: 0.576    ver8     --- (Best)  
       adnl_govt_labels_path = '..//data_set_26897.csv'      LB: 0.244    ver28
 
       adnl_govt_labels = pd.read_csv(adnl_govt_labels_path)      LB: 0.244   ver28
@@ -217,7 +217,7 @@ OVERLAP = 20：
 
 ### def compute_fbeta(y_true: 
 
-      beta: float = 0.5) -> float:           LB: 0.576    ver8     --- Best  --- defalt
+      beta: float = 0.5) -> float:           LB: 0.576    ver8     --- (Best)  --- defalt
       beta: float = 0.6) -> float:           LB: 0.576    ver34 
       beta: float = 0.7) -> float:           LB: 0.576    ver35
       beta: float = 0.8) -> float:           LB: 0.576    ver36 
@@ -227,7 +227,7 @@ OVERLAP = 20：
 
 ### SEED:
 
-      SEED = 42          LB: 0.576    ver8     --- Best  --- defalt
+      SEED = 42          LB: 0.576    ver8     --- (Best)  --- defalt
       SEED = 100         LB: 0.576    ver39    
       SEED = 500         LB: 0.576    ver40     
       SEED = 1000        LB: 0.576    ver41     
@@ -241,7 +241,7 @@ OVERLAP = 20：
       got_label) < 0.60 for got_label in filtered_labels):          LB: 0.576    ver46
       got_label) < 0.65 for got_label in filtered_labels):          LB: 0.576    ver45
       got_label) < 0.70 for got_label in filtered_labels):          LB: 0.576    ver44      
-      got_label) < 0.75 for got_label in filtered_labels):          LB: 0.576    ver8      --- Best  --- defalt
+      got_label) < 0.75 for got_label in filtered_labels):          LB: 0.576    ver8      --- (Best)  --- defalt
       got_label) < 0.80 for got_label in filtered_labels):          LB: 0.576    ver47
       got_label) < 0.85 for got_label in filtered_labels):          LB: 0.575    ver48
 
@@ -249,19 +249,27 @@ OVERLAP = 20：
 
 ### if not MATCH_ONLY:
 
-      PRETRAINED_PATH = '/checkpoint-60000':           LB: 0.576    ver8      --- Best  --- defalt   
+      PRETRAINED_PATH = '/checkpoint-60000':           LB: 0.576    ver8      --- (Best)  --- defalt   
       PRETRAINED_PATH = '/checkpoint-48000':           LB: 0.576    ver50
       PRETRAINED_PATH = '/checkpoint-36000':           LB: 0.575    ver51
       PRETRAINED_PATH = '/checkpoint-24000':           LB: 0.574    ver52
       PRETRAINED_PATH = '/checkpoint-12000':           LB: 0.570    ver53
 
-
-      adnl_govt_labels = df_data2300:           LB: 0.570    ver53
-      adnl_govt_labels = df_data2000:           LB: 0.570    ver53
-      adnl_govt_labels = df_data1800:           LB: 0.570    ver53
-      adnl_govt_labels = df_data1500:           LB: 0.570    ver53
-      adnl_govt_labels = df_data1000:           LB: 0.584    ver59
+      BS_CLEANING = False:             LB: 0.576    ver8       --- (Best)  --- defalt
+      BS_CLEANING = True:              LB: 0.571    ver54
 
 
+      adnl_govt_labels = df_data2300:           LB: 0.577    ver55
+      adnl_govt_labels = df_data2000:           LB: 0.577    ver56
+      adnl_govt_labels = df_data1800:           LB: 0.579    ver57
+      adnl_govt_labels = df_data1500:           LB: 0.583    ver58
+      adnl_govt_labels = df_data1000:           LB: 0.584    ver59      --- Best
+
+      adnl_govt_labels = df_data900:           LB:     ver60
+      adnl_govt_labels = df_data700:           LB:     ver61
+      adnl_govt_labels = df_data500:           LB:     ver62
+      adnl_govt_labels = df_data300:           LB:     ver63
+      adnl_govt_labels = df_data100:           LB:     ver64
+      
 -------
 
