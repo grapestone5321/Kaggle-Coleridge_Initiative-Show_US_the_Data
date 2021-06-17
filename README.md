@@ -265,9 +265,10 @@ OVERLAP = 20：
       adnl_govt_labels = df_data1500:           LB: 0.583    ver58
       adnl_govt_labels = df_data1000:           LB: 0.584    ver59
       
-      adnl_govt_labels = df_data900:            LB: 0.585    ver60
+      adnl_govt_labels = df_data900:            LB: 0.585    ver60      
+      adnl_govt_labels = df_data800:            LB: 0.585    ver65                     76 -> 76
       adnl_govt_labels = df_data700:            LB: 0.585    ver61      --- Best
-      adnl_govt_labels = df_data800:            LB:     ver65
+      adnl_govt_labels = df_data600:            LB: 0.    ver66
       adnl_govt_labels = df_data500:            LB: 0.585    ver62
       adnl_govt_labels = df_data300:            LB: 0.585    ver63
       adnl_govt_labels = df_data100:            LB: 0.441    ver64
