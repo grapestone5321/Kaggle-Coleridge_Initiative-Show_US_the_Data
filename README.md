@@ -280,6 +280,17 @@ OVERLAP = 20：
       adnl_govt_labels = df_data350:            LB: 0.585    ver75                     78 -> 78
       adnl_govt_labels = df_data300:            LB: 0.585    ver63      --- Best
       adnl_govt_labels = df_data100:            LB: 0.441    ver64
+
+
+ adnl_govt_labels = df_data700:
+
+      COMPUTE_CV = False:            LB: 0.585    ver61      --- Best
+      COMPUTE_CV = True:             LB:     ver81      
+      
+      ALL_BLENDED = False
+      BASELINE_HELPING = False
+      MATCH_ONLY = False
+      KEN_MATCHING = True
       
 -------
 
