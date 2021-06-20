@@ -291,6 +291,24 @@ OVERLAP = 20：
       BASELINE_HELPING = False
       MATCH_ONLY = False
       KEN_MATCHING = True
+
+
+      COMPUTE_CV = False
+      COMPUTE_CV = True
+
+      ALL_BLENDED = False
+      ALL_BLENDED = True
+
+      BASELINE_HELPING = False
+      BASELINE_HELPING = True
+
+
+      MATCH_ONLY = False
+      MATCH_ONLY = True
+
+
+      KEN_MATCHING = True
+      KEN_MATCHING = False
       
 -------
 
