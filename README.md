@@ -281,55 +281,62 @@ OVERLAP = 20：
       adnl_govt_labels = df_data300:            LB: 0.585    ver63      
       adnl_govt_labels = df_data100:            LB: 0.441    ver64
 
+      adnl_govt_labels = df_datatail1200:       LB: 0.173    ver76
+      adnl_govt_labels = df_datatail1000:
+      adnl_govt_labels = df_datatail800:        LB: 0.435    ver78
+      adnl_govt_labels = df_datatail600:        LB: 0.265    ver79
+      adnl_govt_labels = df_datatail400:        LB: 0.585    ver80
+
+      adnl_govt_labels = df_datarandam1200:     LB: 0.585    ver81
+
+
+      adnl_govt_labels = df_datatail1200:
+
+      adnl_govt_labels = df_datarandam1200:
+      adnl_govt_labels = df_datarandam1000:
+      adnl_govt_labels = df_datarandam700:
 
  adnl_govt_labels = df_data700:
 
-      COMPUTE_CV = False:            LB: 0.585    ver61      --- Best
-      COMPUTE_CV = True:             LB:     ver81      
-      
-      ALL_BLENDED = False
-      BASELINE_HELPING = False
-      MATCH_ONLY = False
-      KEN_MATCHING = True
+      COMPUTE_CV = False:                LB: 0.585    ver61      --- (Best)
+      COMPUTE_CV = True:                 LB: 0.585    ver87      
 
+      ALL_BLENDED = False                LB: 0.585    ver61      --- (Best)
+      ALL_BLENDED = True:                LB: 0.461    ver83
 
-      COMPUTE_CV = False
-      COMPUTE_CV = True
+      BASELINE_HELPING = False            LB: 0.585    ver61      --- (Best)
+      BASELINE_HELPING = True:            LB: 0.585    ver84
 
-      ALL_BLENDED = False
-      ALL_BLENDED = True
+      MATCH_ONLY = False                  LB: 0.585    ver61      --- (Best)
+      MATCH_ONLY = True:                  LB: 0.583    ver85
 
-      BASELINE_HELPING = False
-      BASELINE_HELPING = True
-
-
-      MATCH_ONLY = False
-      MATCH_ONLY = True
-
-
-      KEN_MATCHING = True
-      KEN_MATCHING = False
+      KEN_MATCHING = True                 LB: 0.585    ver61      --- (Best)
+      KEN_MATCHING = False:               LB: 0.569    ver86
 
 
 
 ### for (result1, result2), phrase in zip(mlm_pred, phrases):
 
-      if (result1['score'] > result2['score']*2 
-         (result2['score'] > result1['score']*2:
-
-      if (result1['score'] > result2['score']*2.2 
-         (result2['score'] > result1['score']*2.2:
-         
       if (result1['score'] > result2['score']*1.5 
-         (result2['score'] > result1['score']*1.5:
-      
-      if (result1['score'] > result2['score']*2.5 
-         (result2['score'] > result1['score']*2.5:
-         
+         (result2['score'] > result1['score']*1.5:       LB: 0.584    ver89 
+
+      if (result1['score'] > result2['score']*1.7 
+         (result2['score'] > result1['score']*1.7:       LB: 0.585    ver92               81 -> 81    
+
       if (result1['score'] > result2['score']*1.8 
          (result2['score'] > result1['score']*1.8:       LB: 0.585    ver91   --- Best    87 -> 81
-                   
-      
-                   
+    
+      if (result1['score'] > result2['score']*2 
+         (result2['score'] > result1['score']*2:         LB: 0.585    ver61   --- (Best) 
+
+      if (result1['score'] > result2['score']*2.2 
+         (result2['score'] > result1['score']*2.2:       LB: 0.585    ver88 
+              
+      if (result1['score'] > result2['score']*2.5 
+         (result2['score'] > result1['score']*2.5:       LB: 0.584    ver90 
+         
+               
+ 
+               
 -------
 
