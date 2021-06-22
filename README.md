@@ -321,11 +321,20 @@ OVERLAP = 20：
          (result2['score'] > result1['score']*1.5:       LB: 0.584    ver89 
 
       if (result1['score'] > result2['score']*1.7 
-         (result2['score'] > result1['score']*1.7:       LB: 0.585    ver92               81 -> 81    
+         (result2['score'] > result1['score']*1.7:       LB: 0.585    ver92               81 -> 81  
+         
+      if (result1['score'] > result2['score']*1.75 
+         (result2['score'] > result1['score']*1.75:      LB: 0.585    ver94               82 -> 82    
 
       if (result1['score'] > result2['score']*1.8 
          (result2['score'] > result1['score']*1.8:       LB: 0.585    ver91   --- Best    87 -> 81
-    
+         
+      if (result1['score'] > result2['score']*1.85 
+         (result2['score'] > result1['score']*1.85:      LB:     ver95      82 -> 
+         
+      if (result1['score'] > result2['score']*1.9 
+         (result2['score'] > result1['score']*1.9:       LB: 0.585    ver93               82 -> 82        
+             
       if (result1['score'] > result2['score']*2 
          (result2['score'] > result1['score']*2:         LB: 0.585    ver61   --- (Best) 
 
