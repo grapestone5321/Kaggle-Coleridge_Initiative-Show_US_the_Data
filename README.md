@@ -282,19 +282,10 @@ OVERLAP = 20：
       adnl_govt_labels = df_data100:            LB: 0.441    ver64
 
       adnl_govt_labels = df_datatail1200:       LB: 0.173    ver76
-      adnl_govt_labels = df_datatail1000:
-      adnl_govt_labels = df_datatail800:        LB: 0.435    ver78
-      adnl_govt_labels = df_datatail600:        LB: 0.265    ver79
-      adnl_govt_labels = df_datatail400:        LB: 0.585    ver80
 
-      adnl_govt_labels = df_datarandam1200:     LB: 0.585    ver81
-
-
-      adnl_govt_labels = df_datatail1200:
-
-      adnl_govt_labels = df_datarandam1200:
-      adnl_govt_labels = df_datarandam1000:
-      adnl_govt_labels = df_datarandam700:
+      adnl_govt_labels = df_datarandam1200:     LB: 0.426    ver77
+      adnl_govt_labels = df_datarandam1000:     LB: 0.435    ver78
+      adnl_govt_labels = df_datarandam700:      LB: 0.265    ver79    
 
  adnl_govt_labels = df_data700:
 
@@ -327,10 +318,13 @@ OVERLAP = 20：
          (result2['score'] > result1['score']*1.75:      LB: 0.585    ver94               82 -> 82    
          
       if (result1['score'] > result2['score']*1.78 
-         (result2['score'] > result1['score']*1.78:      LB:     ver96               82 ->     
+         (result2['score'] > result1['score']*1.78:      LB: 0.585    ver96               82 -> 82    
 
       if (result1['score'] > result2['score']*1.8 
          (result2['score'] > result1['score']*1.8:       LB: 0.585    ver91   --- Best    87 -> 81
+         
+      if (result1['score'] > result2['score']*1.82 
+         (result2['score'] > result1['score']*1.82:      LB: 0.585    ver97   --- Best    82 -> 82
          
       if (result1['score'] > result2['score']*1.85 
          (result2['score'] > result1['score']*1.85:      LB: 0.585    ver95               82 -> 82
@@ -348,7 +342,6 @@ OVERLAP = 20：
          (result2['score'] > result1['score']*2.5:       LB: 0.584    ver90 
          
                
- 
-               
+                
 -------
 
