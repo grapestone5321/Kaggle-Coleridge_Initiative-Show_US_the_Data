@@ -129,9 +129,9 @@ https://en.wikipedia.org/wiki/Jaccard_index
 
 ## Progress
 
-### Public Best LB Score: 0.585
+### Public Best LB Score: 0.585 (0.584)
 
-### Private Score: 
+### Private Score: 0.258 (0.272)
 
 
 
@@ -309,7 +309,8 @@ OVERLAP = 20：
 ### for (result1, result2), phrase in zip(mlm_pred, phrases):
 
       if (result1['score'] > result2['score']*1.5 
-         (result2['score'] > result1['score']*1.5:       LB: 0.584    ver89 
+         (result2['score'] > result1['score']*1.5:       LB: 0.584    ver89  
+                                                         Private Score:(0.272) ---> Best
 
       if (result1['score'] > result2['score']*1.7 
          (result2['score'] > result1['score']*1.7:       LB: 0.585    ver92               81 -> 81  
@@ -322,9 +323,10 @@ OVERLAP = 20：
 
       if (result1['score'] > result2['score']*1.8 
          (result2['score'] > result1['score']*1.8:       LB: 0.585    ver91   --- Best    87 -> 81
+                                                         Private Score: 0.258
          
       if (result1['score'] > result2['score']*1.82 
-         (result2['score'] > result1['score']*1.82:      LB: 0.585    ver97   --- Best    82 -> 82
+         (result2['score'] > result1['score']*1.82:      LB: 0.585    ver97               82 -> 82
          
       if (result1['score'] > result2['score']*1.85 
          (result2['score'] > result1['score']*1.85:      LB: 0.585    ver95               82 -> 82
